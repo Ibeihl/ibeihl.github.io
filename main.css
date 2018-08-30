@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* for mobile phones */
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .welcome-section {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; 
+        padding-bottom: 100px;
+        color: 	#d1d5c6;
+    }
+    .welcome-section a {
+        color: 	#d1d5c6
+    }
+    .contact-section img {
+        width: 100%;
+    }
+    .cocktail-section img {
+        width: 10px;
+    }
+  }
+
+/* for bigger screens */
+@media only screen and (min-width: 600px) {
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+main{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+h2 {
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.welcome-section {
+    background-image: url("./images/ian-canoe.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    font-size: 35px;
+}
+.welcome-section h1 {
+    padding-top: 40px;
+    font-size: 90px;
+    margin: 0;
+}
+.welcome-section p {
+    margin: 0px;
+}
+.content {
+    /* display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto; */
+
+}
+.about-section {
+    min-height: 100vh;
+    width: auto;
+    background-color:#4c7394;
+    /* display: table-cell;
+    vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.about-section img {
+    border-radius: 150px;
+    width: auto;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.about-section h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.about-section p {
+    padding: 15px;
+}
+.cocktail-section {
+    width: auto;
+    min-height: 100vh;
+    background-color: #b0bcba;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cocktail-section h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.cocktail-section p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cocktail-section p a img {
+    height: 20px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: inline;
+}
+.cocktail-section img {
+    width: 325px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.contact-section {
+    width: auto;
+    min-height: 100vh;
+    background-color: #6f8ba0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 50px;
+}
+.contact-section h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.contact-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.contact-section li {
+    margin-top: 8px;
+    font-size: 20px;
+}
+.contact-section img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.contact-section h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contact-section li img {
+    height: 25px;
+    width: 25px;
+    display: inline;
+}
+.contact-info {
+    display: block;
+    margin-top: 60px;
+    padding-left: 40px;
+}
+#linkedin {
+    height: 25px;
+    width: 100px;
+    margin-right: 15px;
+}

@@ -146,6 +146,9 @@ h2 {
     margin-right: auto;
     margin-bottom: 20px;
 }
+#snow {
+    background-color: #d1d5c6
+}
 .contact-section {
     width: auto;
     min-height: 100vh;

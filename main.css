@@ -21,14 +21,15 @@ body {
         justify-content: center;
         align-items: flex-end; 
         padding-bottom: 100px;
-        color: 	#d1d5c6;
     }
-    .welcome-section a {
-        color: 	#d1d5c6
+    .welcome-section h1 {
+        /* padding-top: 20px; */
+        font-size: 90px;
+        margin: 0;
     }
-    .contact-section img {
+    /* .contact-section img {
         width: 100%;
-    }
+    } */
     .cocktail-section img {
         width: 10px;
     }
@@ -55,7 +56,8 @@ body {
 }
 
 main{
-    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    /* font-family: Futura,Trebuchet MS,Arial,sans-serif; */
+    font-family: 'Karla', sans-serif; 
 }
 a {
     text-decoration: none;
@@ -66,11 +68,12 @@ h2 {
     padding-top: 30px;
 }
 .welcome-section {
-    background-image: url("./images/ian-canoe.jpg");
+    /* background-image: url("./images/ian-canoe.jpg"); */
     /* background-repeat: no-repeat; */
     background-size: cover;
     width: auto;
     height: 100vh;
+    padding-top: 30vh;
     text-align: center;
     font-size: 35px;
 }
@@ -82,21 +85,30 @@ h2 {
 .welcome-section p {
     margin: 0px;
 }
-.content {
-    /* display: inline-block;
-    margin-bottom: auto;
-    margin-top: auto; */
 
+.bison {
+    background-image: url('./images/bison.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 52vh;
 }
+.snowy-road {
+    background-image: url('./images/teton-cabin.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
 .about-section {
     min-height: 100vh;
     width: auto;
-    background-color:#4c7394;
+    /* background-color:#4c7394; */
     /* display: table-cell;
     vertical-align: middle; */
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin-bottom: 20vh;
 }
 .about-section img {
     border-radius: 150px;
@@ -114,16 +126,22 @@ h2 {
 .about-section p {
     padding: 15px;
 }
+.project-header {
+    font-size: 50px;
+    text-align: center;
+    /* padding-top: 14vh; */
+    /* background-color: #b0bcba; */
+}
 .cocktail-section {
     width: auto;
-    min-height: 100vh;
-    background-color: #b0bcba;
+    /* min-height: 100vh; */
+    /* background-color: #b0bcba; */
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 .cocktail-section h2 {
-    font-size: 50px;
+    font-size: 36px;
     text-align: center;
 }
 .cocktail-section p {
@@ -140,6 +158,8 @@ h2 {
 }
 .cocktail-section img {
     width: 325px;
+    padding: 1px;
+    border: black 1px solid;
     height: auto;
     display: block;
     margin-left: auto;
@@ -147,12 +167,12 @@ h2 {
     margin-bottom: 20px;
 }
 #snow {
-    background-color: #d1d5c6
+    /* background-color: #d1d5c6 */
 }
 .contact-section {
     width: auto;
     min-height: 100vh;
-    background-color: #6f8ba0;
+    /* background-color: #6f8ba0; */
     display: flex;
     justify-content: center;
     align-items: center; 

@@ -13,7 +13,7 @@ body {
 }
 
 /* for mobile phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
     [class*="col-"] {
         width: 100%;
     }
@@ -37,7 +37,7 @@ body {
   }
 
 /* for bigger screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 780px) {
     [class*="col-"] {
         float: left;
         padding: 15px;
@@ -57,7 +57,6 @@ body {
 }
 
 main{
-    /* font-family: Futura,Trebuchet MS,Arial,sans-serif; */
     font-family: 'Karla', sans-serif; 
     /* font-family: 'Oswald', sans-serif; */
 }
@@ -70,8 +69,6 @@ h2 {
     padding-top: 30px;
 }
 .welcome-section {
-    /* background-image: url("./images/ian-canoe.jpg"); */
-    /* background-repeat: no-repeat; */
     background-size: cover;
     width: auto;
     height: 100vh;
@@ -86,7 +83,6 @@ h2 {
 }
 .welcome-section p {
     margin: 0px;
-    /* position: fixed; */
     margin: 0 auto 0 auto;
     text-align: center
 }
@@ -107,9 +103,6 @@ h2 {
 .about-section {
     min-height: 100vh;
     width: auto;
-    /* background-color:#4c7394; */
-    /* display: table-cell;
-    vertical-align: middle; */
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -122,7 +115,6 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 25px; */
 }
 .about-section h2 {
     font-size: 50px;
@@ -135,8 +127,6 @@ h2 {
 .project-header {
     font-size: 50px;
     text-align: center;
-    /* padding-top: 14vh; */
-    /* background-color: #b0bcba; */
 }
 #weather-img {
     margin-top: 50px;
@@ -158,8 +148,6 @@ h2 {
 }
 .cocktail-section {
     width: auto;
-    /* min-height: 100vh; */
-    /* background-color: #b0bcba; */
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -174,31 +162,25 @@ h2 {
 }
 .cocktail-section p a img {
     height: 20px;
+    position: absolute;
+    top: 10;
     width: auto;
     border: none;
-    margin-left: 20px;
-    margin-right: 0;
-    margin-bottom: 0;
-    display: inline;
+    box-shadow: none;
+    margin: 0px 0 0 20px;
+    display: inline-block;
 }
 .cocktail-section img {
     width: 325px;
-    /* padding: 1px; */
-    /* border: black 2px solid; */
     box-shadow: 4px 4px 6px #888888;
     height: auto;
     display: block;
     margin: 0 auto 20px auto;
-    vertical-align: middle;
-}
-.img-container {
-    vertical-align: middle;
-}
 
+}
 .contact-section {
     width: auto;
-    min-height: 94vh;
-    /* background-color: #6f8ba0; */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -244,6 +226,7 @@ h2 {
 }
 footer {
     text-align: center;
+    margin-top: -30px;
 }
 footer span {
     margin: 40px;

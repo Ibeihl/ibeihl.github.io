@@ -10,5 +10,7 @@ http://www.ianbeihl.com/
 
 ![screen shot 2018-10-17 at 12 56 20 pm](https://user-images.githubusercontent.com/38081935/47112766-23fca300-d20c-11e8-86b4-c8c9016f28c4.png)
 
+![screen shot 2018-10-17 at 1 28 57 pm](https://user-images.githubusercontent.com/38081935/47114442-a8512500-d210-11e8-8f61-1a3e5ae908fb.png)
+
 ## Stack
 HTML, CSS, JavaScript

@@ -183,8 +183,9 @@ h2 {
 }
 .cocktail-section img {
     width: 325px;
-    padding: 1px;
-    border: black 1px solid;
+    /* padding: 1px; */
+    /* border: black 2px solid; */
+    box-shadow: 4px 4px 6px #888888;
     height: auto;
     display: block;
     margin: 0 auto 20px auto;

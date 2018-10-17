@@ -34,6 +34,12 @@ body {
     .cocktail-section img {
         width: 10px;
     }
+    .contact-section ul{
+        margin-left: 120px;
+    }
+    .contact-section h3{
+        margin-left: 120px;
+    }
   }
 
 /* for bigger screens */

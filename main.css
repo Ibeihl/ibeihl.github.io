@@ -138,6 +138,24 @@ h2 {
     /* padding-top: 14vh; */
     /* background-color: #b0bcba; */
 }
+#weather-img {
+    margin-top: 50px;
+}
+#dfl-img {
+    margin-top: 20px;
+}
+#hablamos-img {
+    margin-top: 22px;
+}
+#twitter-race {
+    margin-top: 90px;
+}
+#snow-text {
+    margin-top: 70px;
+}
+#cocktail-text {
+    margin-top: 40px;
+}
 .cocktail-section {
     width: auto;
     /* min-height: 100vh; */
@@ -169,13 +187,13 @@ h2 {
     border: black 1px solid;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+    vertical-align: middle;
 }
-#snow {
-    /* background-color: #d1d5c6 */
+.img-container {
+    vertical-align: middle;
 }
+
 .contact-section {
     width: auto;
     min-height: 94vh;

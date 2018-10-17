@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,14 +9,16 @@
     <meta name="description" content="Portfolio">
     <meta name="keywords" content="keywords,here">
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Varela' type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link rel="stylesheet" href="./main.css" type="text/css">
     <link rel="icon" type="image/png" href="./images/tree-icon.png">
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
 </head>
 
 <body>
     <main role="main">
-        <div class="welcome-section row">
+        <div class="welcome-section row" id="landing">
             <div class="content">
                 <div class="col-12">
                     <h1>IAN F. BEIHL</h1>
@@ -29,23 +30,26 @@
                 </div>
             </div>
         </div>
-        <div class="about-section" id="about">
+
+        <div class="about-section" >
             <div class="content">
                 <div class="bison">
                 </div>
-                <h2>ABOUT ME</h2>
+                <h2 id="about">- ABOUT ME -</h2>
                 <div class="row">
                     <div class="col-4">
                         <img src="./images/ian-headshot.jpg" alt="headshot" />
                     </div>
                     <div class="col-8">
                         <p>After spending a few years in Wyoming’s beautiful Teton range, I moved to Oregon to continue
-                            my passion for living outdoors and building things. Whether creating complex craft cocktails
-                            as a seasoned bartender, outdoor furniture for our backyard, or fun and creative web apps, I
-                            love tinkering and building. As a kid I loved taking things apart, seeing how they worked, then
+                            my passion for living outdoors and building things. Whether creating complex, craft cocktails
+                            as a seasoned bartender, outdoor furniture for my backyard, or fun and creative web apps, I
+                            enjoy tinkering and building. As a kid I loved taking things apart, seeing how they worked, then
                             putting them back together. Some things never change.</p>
-                        <p> While I feel most comfortable writing JavaScript apps with React/Redux, Node.js, MongoDb and
-                            PostgresSQL, I am in the process of learning Python and ready to continue adding to my stack!
+                        <p> I build mobile-first, responsive, web apps using industry best practices, and have a strong understanding
+                            of version-control, comprehensive testing and continuous integration.
+                            While I am most comfortable with the React/Redux, Node.js, MongoDb and
+                            Mocha/Chai stack, I am in the process of learning Python and am always ready to take on new challenges!
                             </p>
                     </div>
                 </div>
@@ -56,11 +60,11 @@
         <div class="snowy-road">
           
         </div>
-        <h2 class="project-header">MY WORK</h2>
+        <h2 class="project-header">- MY WORK -</h2>
 
         <div class="cocktail-section" id="projects">
             <div class="content">
-                <h2>WEATHER FM</h2>
+                <h3>WEATHER FM</h3>
                 <div class="col-7">
                     <p>Based on a spaced repetition algorithm, this straighforward app will help you memorize Spanish words
                         faster than ever before.</p>
@@ -83,7 +87,7 @@
 
         <div class="cocktail-section" id="projects">
             <div class="content">
-                <h2>DRANE AND FREYER</h2>
+                <h3>DRANE AND FREYER</h3>
                 <div class="col-5">
                     <img src="./images/dfl-screenshot.png" alt="cocktail-src-shot" />
                 </div>
@@ -101,13 +105,12 @@
                     <p><a href="https://hablamos-ji.herokuapp.com/">Live Version</a><a href="https://github.com/Ibeihl/dfl-law"><img
                                 src="./images/github-icon.png" alt="github" /></a></p>
                 </div>
-           
             </div>
         </div>
 
         <div class="cocktail-section" id="projects">
             <div class="content">
-                <h2>HABLAMOS</h2>
+                <h3>HABLAMOS</h3>
                 <div class="col-7">
                     <p>Based on a spaced repetition algorithm, this straighforward app will help you memorize Spanish words
                         faster than ever before.</p>
@@ -130,7 +133,7 @@
 
         <div class="cocktail-section snow" id="snow">
             <div class="content">
-                <h2>TWITTER BATTLE</h2>
+                <h3>TWITTER RACE</h3>
                 <div class="col-5">
                     <img src="./images/snow-problems2.png" alt="cocktail-src-shot" />
                 </div>
@@ -146,15 +149,15 @@
                     <p>Snow More Problem utilizes World Weather Online's Ski Weather Api to find up to date weather reports.
                         It then employs MongoDb, Express and Node on the server side, including JWT authentication, and React/Redux
                         and Bootstrap for the client.</p>
-                    <p><a href="https://salty-caverns-66890.herokuapp.com/">Live Version</a><a href="https://github.com/Ibeihl/snow-more-problems/blob/master/README.md"><img
-                                src="./images/github-icon.png" alt="github" /></a></p>
+                    <p><a href="https://github.com/Ibeihl/twitter-race"><img
+                            src="./images/github-icon.png" alt="github" /></a></p>
                 </div>
             </div>
         </div>
 
         <div class="cocktail-section snow" id="snow">
             <div class="content">
-                <h2>SNOW MORE PROBLEMS</h2>
+                <h3>SNOW MORE PROBLEMS</h3>
                 <div class="col-7">
                     <p>As an avid skier, I have always wanted a place where I can easily view snow reports from all my favorite
                         ski areas. With Snow More Problems, I can find my favorite ski areas, add them to my own account,
@@ -178,7 +181,7 @@
 
         <div class="cocktail-section" id="projects">
             <div class="content">
-                <h2>COCKTAIL BUDDY</h2>
+                <h3>COCKTAIL BUDDY</h3>
                 <div class="col-5">
                     <img src="./images/cocktail-buddy.jpg" alt="cocktail-src-shot" />
                 </div>
@@ -196,9 +199,10 @@
                 </div>
             </div>
         </div>
+
         <div class="contact-section" id="contact">
             <div class="content">
-                <h2>CONTACT ME</h2>
+                <h2>- CONTACT ME -</h2>
                 <div class="row">
                     <div class="col-8">
                         <img src="./images/mt-wash.jpg" alt="bend-img" />
@@ -224,8 +228,13 @@
                 </div>
             </div>
         </div>
-    </main>
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script> -->
-</body>
 
+        <footer>
+        <span>Ian Beihl 2018</span>
+        <span><a href="#landing">Back to Top</a></span>
+        </footer>
+
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+</body>
 </html>
